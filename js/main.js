@@ -1,8 +1,8 @@
 var $videoWrap = $('#video-wrap');
 var $video = $('#the-video');
-var $btn = $('btn-play-pause');
+var $btn = $('#btn-play-pause');
 
-$btn.on('click', function() {
+$btn.on('click', function () {
   if ($video.get(0).paused) {
     $video.get(0).play();
     $btn.html('Pause');
